@@ -1,0 +1,307 @@
+{
+  "id": "df5a6a67-6734-47b4-8150-15028bbcbbd8",
+  "version": "2.0",
+  "name": "SQT Project",
+  "url": "https://www.aiub.edu",
+  "tests": [{
+    "id": "77b46cd4-67c1-469d-9a46-9bea11807cbf",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "ee493ff0-07d1-4ee8-a5fd-82ada8f36268",
+    "name": "AIUB Homepage",
+    "commands": [{
+      "id": "4fc97d21-e490-41ac-8893-eb65a0d47e2e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1611004f-aab1-4166-9f0c-c9b52df463c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1207x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bdbf5ce-e4e6-42a7-bb7b-c1379ce108dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Convocation",
+      "targets": [
+        ["linkText=Convocation", "linkText"],
+        ["css=.menu-2 > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Convocation')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/about/Convocation')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d48d2150-4d7f-4063-a34f-d57dde9a4883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Future Students",
+      "targets": [
+        ["linkText=Future Students", "linkText"],
+        ["css=.menu-2 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Future Students')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/future-Students')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19373d41-6943-4ffd-927b-5d5ed774c99b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Visitors",
+      "targets": [
+        ["linkText=Visitors", "linkText"],
+        ["css=.menu-2:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Visitors')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/about/Rules-Of-Entry')])[4]", "xpath:href"],
+        ["xpath=//body/div/div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ea53520-da84-42cf-ae39-6c07ce70c977",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alumni",
+      "targets": [
+        ["linkText=Alumni", "linkText"],
+        ["css=.menu-2:nth-child(1) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Alumni')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/Alumni')])[2]", "xpath:href"],
+        ["xpath=//body/div/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6edac9e8-7a1b-4326-84a9-553cc6aa38ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Future Students",
+      "targets": [
+        ["linkText=Future Students", "linkText"],
+        ["css=.menu-2 > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Future Students')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/future-Students')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e170472-1ddf-42a0-9064-f670541ad2d4",
+    "name": "login",
+    "commands": [{
+      "id": "c75402f6-d47c-4484-a906-150bee3582af",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93e07e68-989f-42fe-b9ba-4bc34eae3261",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4820ae3-da80-4b80-9dee-c879fc697a56",
+      "comment": "",
+      "command": "click",
+      "target": "id=apply_program",
+      "targets": [
+        ["id=apply_program", "id"],
+        ["css=#apply_program", "css:finder"],
+        ["xpath=//button[@id='apply_program']", "xpath:attributes"],
+        ["xpath=//div[@id='MainCarousel']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dd71efe-827b-462b-a04b-7f2793af9f30",
+      "comment": "",
+      "command": "click",
+      "target": "id=programme_selection",
+      "targets": [
+        ["id=programme_selection", "id"],
+        ["css=#programme_selection", "css:finder"],
+        ["xpath=//select[@id='programme_selection']", "xpath:attributes"],
+        ["xpath=//div[@id='program-selections']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34096987-7ef4-4763-b68e-862dd7e814f9",
+      "comment": "",
+      "command": "select",
+      "target": "id=programme_selection",
+      "targets": [],
+      "value": "label=Undergraduate"
+    }, {
+      "id": "4f9e9f45-5aa8-44c3-9e5f-68bb05178004",
+      "comment": "",
+      "command": "click",
+      "target": "id=course_selection",
+      "targets": [
+        ["id=course_selection", "id"],
+        ["css=#course_selection", "css:finder"],
+        ["xpath=//select[@id='course_selection']", "xpath:attributes"],
+        ["xpath=//div[@id='program-selections']/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff418e2-05c3-4831-a488-60f33e0920ed",
+      "comment": "",
+      "command": "select",
+      "target": "id=course_selection",
+      "targets": [],
+      "value": "label=BSc in Computer Science & Engineering"
+    }, {
+      "id": "d940cd2c-07ed-4fe2-810e-5df459713b9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-md-3 .btn",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-md-3 .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='apply_now']/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'APPLY ONLINE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2b3d926-a8bd-400d-9440-27c9bf61091a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Applicant",
+      "targets": [
+        ["linkText=New Applicant", "linkText"],
+        ["css=.login_forgotpassword:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'New Applicant')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Registration')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'New Applicant')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2543ca1-bc2e-4a32-a890-5e88cb0f0f10",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5abf04-2ed8-456d-a98b-08c3a764c682",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "example123@gmail.com"
+    }, {
+      "id": "90406ad8-5c40-467d-a674-521d2aa93458",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["name=Mobile", "name"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8a3e767-c502-4973-b673-af11ae3cd183",
+      "comment": "",
+      "command": "type",
+      "target": "id=Mobile",
+      "targets": [
+        ["id=Mobile", "id"],
+        ["name=Mobile", "name"],
+        ["css=#Mobile", "css:finder"],
+        ["xpath=//input[@id='Mobile']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "0171111111111"
+    }, {
+      "id": "10348f94-cfe8-4c25-bbd0-058764842411",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97db2b48-d109-4587-820a-028e431e4603",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "b5d0bdc9-c069-43a5-9ed1-6f2de852fd6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d427808-0cba-48bf-a947-6f774f0c1fd6",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }]
+  }],
+  "suites": [{
+    "id": "44dda735-f770-4e00-aa03-77e7e022d793",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["77b46cd4-67c1-469d-9a46-9bea11807cbf"]
+  }],
+  "urls": ["https://www.aiub.edu/"],
+  "plugins": []
+}
